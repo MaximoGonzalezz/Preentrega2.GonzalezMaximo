@@ -1,0 +1,593 @@
+/*!----------TIPOGRAFIA------!*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caprasimo&family=Oswald:wght@400;600&display=swap');   
+
+/**************RESET************/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;                            
+
+}
+/******************HEADER*************/
+
+.logo-nav{
+    width: 50px;
+    height: 50px;
+}
+
+
+/***************MAIN*************/
+
+
+main .titulo{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)
+    )
+    ,url(../img/ñoquipanceta.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main .titulo h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 100px;
+    color: beige;
+    text-align: center;
+    
+}
+
+main .titulo h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    color: beige;
+    margin-left: 20px;
+    text-align: center;
+    
+}   
+main .produ{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main .produ h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    
+}
+
+main .produ .contenedor-cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+
+main .mas .massobrenosotros{
+    font-family: 'Bebas Neue', sans-serif;
+    width: 100%;
+    height: 30vh;
+    
+}
+main .mas .massobrenosotros h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    
+}
+main .mas .massobrenosotros p{
+    text-align: center;
+    font-size: 30px;
+}
+
+/**************GRID*****************/
+
+.grid-container{
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 150px;
+    gap: 15px;
+    background-color: white;
+}
+
+.grid-container .grid-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0px 0px 86px -13px rgba(0,0,0,0.1),0px 0px 26px 26px rgba(0,0,0,0.1);
+
+}
+
+.primer-item{
+    grid-row: span 2; 
+}
+.tercer-item{
+    grid-row: span 2;
+}
+.cuarto-item{
+    grid-row: span 2;
+}
+
+
+.fixed{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+
+}
+.fixed img{
+    width: 50px;
+}
+/*****************FOOTER***************/
+
+footer{
+    height: 20vh;
+    display: flex;
+    width: 100%;
+    border-top: 2px solid #401712;
+    background-color: #191716;
+    color: aliceblue;
+}
+
+footer .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+footer .logo img{
+    width: 100px;
+}
+
+footer .container-footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align:start;
+    padding-top: 40px;
+    
+}
+footer .container-footer ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+footer div{
+    width: 33.3%;
+    height: 100%;
+}
+footer .contenedorlogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: row;
+    
+}
+
+footer .contenedorlogos img{
+    margin: 10px;
+}
+
+
+
+
+
+/***!!!!!!!!!!!!!!!!PAGE NOSOTROS!!!!!!!!!!!!!!!!!***/
+
+/*********MAIN**********/
+
+main .page-nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .page-nosotros h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+
+}
+main .nosotros-titulos{
+    border: 2px solid black;
+    width: 100%;
+    height: 40vh;
+
+}
+main .nosotros-titulos .nosotros-titulos_contenedor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+main .nosotros-titulos .nosotros-titulos_contenedor div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .nosotros-titulos .nosotros-titulos_contenedor div img{
+    width: 50%;
+    height: 100%;
+}
+
+
+
+/********************PAGE CONTACTO FORMULARIO*************/
+
+.main-contacto{
+    background-color: beige;
+}
+.formulario{
+    width: 100%;
+    height: 50vh;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    background-color: white;
+    color: #401712;
+    font-size: 30px;
+    padding: 30px;
+    }
+
+    .formulario input{
+        font-size: 30px;
+        margin: 10px;
+
+    }
+    .slider-contacto{
+        width: 100%;
+        height: 50vh;
+        background-image: url(../img/canelotis.jpg);
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+    }
+
+/**************** PAGE TIENDA ********************/
+
+
+.tienda{
+    background-color: white;
+
+
+}
+
+.tienda .tienda-titulo{
+    width: 100%;
+}
+.tienda .tienda-titulo h2{
+    font-size: 60px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+    padding-left: 15px;
+    padding-top: 20px;
+    
+
+}
+.tienda .tienda-titulo h3{
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: red;
+    padding-left: 15px;
+}
+
+.tienda .tienda-titulo h4{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.tienda .lista-imagen{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.tienda .lista-imagen ul{
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start ;
+    background-color: #E84855;
+    list-style: none;
+    justify-content: center;
+    margin: 10px;
+    
+    
+}
+.tienda .lista-imagen ul li{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 10px;
+    
+
+}
+.tienda .lista-imagen img{
+    width: 50%;
+    height: 80%;
+    object-fit: cover;
+    
+}
+
+
+.tienda .lista-imagen-2{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.tienda .lista-imagen-2 ul{
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #E84855;
+    list-style: none;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.tienda .lista-imagen-2 img{
+    width: 50%;
+    height: 80%;
+    object-fit: cover;
+
+}
+.tienda .lista-imagen-2 ul li{
+    margin: 15px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 10px;
+    
+
+}
+
+
+/*************PANES*************/
+
+.panes{
+    background-image: url(../img/focachafondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.panes h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 100px;
+    color: beige;
+    text-align: center;
+    
+    
+    
+}
+.panes h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    color: beige;
+    text-align: center;
+    
+}
+.panes-cards{
+    width: 100%;
+    height: 80vh;
+}
+.cont-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 30px;
+    
+}
+.panes-dos{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../img/pizza.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.panes-dos h2{
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 100px;
+    color: beige;
+    text-align: center;
+
+}
+
+
+
+
+/************* MEDIAS ***************/
+
+
+
+
+@media screen and (max-width:700px){
+        
+    footer .contenedorlogos{
+            flex-direction: column;
+            
+        }
+        footer .contenedorlogos img{
+            margin: 3px;
+        }
+        
+}
+
+
+@media screen and (max-width:650px){
+    
+    main .produ h2{
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    main .mas .massobrenosotros h2{
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    
+    main .titulo h1{
+        font-size: 40px;
+    }
+
+    .tienda .lista-imagen-2 ul li{
+        margin: 0;
+
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .tienda .lista-imagen{
+        flex-direction: column;
+        align-items: center;
+        height: 70vh;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .tienda .lista-imagen-2{
+        flex-direction: column;
+        height: 70vh;
+        align-items: center;
+    }
+    .tienda .lista-imagen-2 img{
+        height: 40vh;
+        padding-left: 0px;
+        width: 80%;
+    }
+    .tienda .lista-imagen img{
+        padding-left: 0;
+        height: 40vh;
+        width: 80%;
+    }   
+
+    .tienda .lista-imagen ul{
+        width: 80%;
+    }
+    .tienda .lista-imagen-2 ul{
+        width: 80%;
+    }
+    
+    .tienda .lista-imagen ul li{
+        margin: 0;
+        padding: 0;
+    }
+
+
+}   
+
+
+  
+@media screen and (max-width:450px){
+        footer .logo img{
+            width: 70px;
+        }
+
+
+        footer .container-footer ul{
+            padding-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        footer .container-footer ul li{
+            font-size: 15px;
+            text-align: center;
+            
+            
+        }
+
+        footer .contenedorlogos img{
+            width: 35px;
+        }
+
+        .tienda .lista-imagen ul li{
+            font-size: 15px;
+            padding-top: 20px;
+
+        }
+
+        .tienda .lista-imagen-2 ul li{
+            font-size: 15px;
+            padding-top: 20px;
+        }
+
+        .tienda .lista-imagen ul{
+            width: 80%;
+            
+        }
+
+        .tienda .lista-imagen img{
+            width: 80%;
+        }
+
+        .tienda .lista-imagen-2 ul{
+            width: 80%;
+        }
+
+        .tienda .lista-imagen-2 img{
+            width: 80%;
+        }
+    }
+
+    
+
+   
+
+
+
+
+
+
+
+
