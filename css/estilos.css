@@ -201,38 +201,102 @@ footer .contenedorlogos img{
 /***!!!!!!!!!!!!!!!!PAGE NOSOTROS!!!!!!!!!!!!!!!!!***/
 
 /*********MAIN**********/
-
-main .page-nosotros{
+.nosotros{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    padding: 10px;
 }
-main .page-nosotros h1{
+.nosotros div h1{
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 60px;
-
+    font-size: 40px;
+    text-align: center;
+    
 }
-main .nosotros-titulos{
-    border: 2px solid black;
-    width: 100%;
-    height: 40vh;
-
-}
-main .nosotros-titulos .nosotros-titulos_contenedor{
-    width: 100%;
-    height: 100%;
-    display: flex;
-}
-main .nosotros-titulos .nosotros-titulos_contenedor div{
+.nosotros div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-main .nosotros-titulos .nosotros-titulos_contenedor div img{
-    width: 50%;
-    height: 100%;
+
+.nosotros div p{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
 }
+
+
+.nosotros-2{
+    width: 100%;
+    height: 50vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.nosotros-2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros-2 div h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    text-align: center;
+
+}
+.nosotros-2 div p{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+
+.trabaja-nosotros{
+    margin-top: 30px;
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)
+    )
+    ,url(../img/capeletinis.jpg) ;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.trabaja-nosotros h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 100px;
+    color: beige;
+    text-align: center;
+    
+
+}
+
+.trabaja-nosotros p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    color: beige;
+    text-align: center;
+
+
+}
+
 
 
 
@@ -425,7 +489,12 @@ main .nosotros-titulos .nosotros-titulos_contenedor div img{
 .panes-dos{
     width: 100%;
     height: 80vh;
-    background-image: url(../img/pizza.jpg);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)
+    )
+    ,url(../img/pizza.jpg) ;
     background-position: center center;
     background-size: cover;
     background-repeat: no repeat;
