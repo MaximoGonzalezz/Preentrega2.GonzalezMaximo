@@ -76,6 +76,7 @@ main .produ .produ__cards{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 15px;
     
 }
 
@@ -86,7 +87,7 @@ main .produ .produ__cards{
 main .mas .mas__nosotros{
     font-family: 'Bebas Neue', sans-serif;
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     
 }
 main .mas .mas__nosotros h2{
@@ -104,7 +105,7 @@ main .mas .mas__nosotros p{
 
 /**************GRID*****************/
 
-.mas__grid{
+.mas .mas__grid{
     width: 100%;
     height: 80vh;
     display: grid;
@@ -112,9 +113,10 @@ main .mas .mas__nosotros p{
     grid-auto-rows: 150px;
     gap: 15px;
     background-color: white;
+    padding: 10px;
 }
 
-.mas__grid .grid-item img{
+ .mas .mas__grid .grid-item img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -316,7 +318,7 @@ footer .footer__logos img{
 
 .contacto .contacto__formulario{
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
     background-color: white;
@@ -327,7 +329,8 @@ footer .footer__logos img{
 
     .contacto__formulario input{
         font-size: 30px;
-        margin: 10px;
+        padding: 5px 15px;
+        margin: 9px;
 
     }
     .slider-contacto{
@@ -492,14 +495,21 @@ footer .footer__logos img{
 }
 .panes-cards{
     width: 100%;
-    height: 80vh;
+    
 }
 .panes-cards .panes-cards__contenedor{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: right;
     padding: 30px;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
     
+}
+
+.card{
+    margin: 10px;
 }
 .panes-dos{
     width: 100%;
@@ -576,7 +586,7 @@ footer .footer__logos img{
             margin: 3px;
     }
 
-    .mas__grid{
+    .mas .mas__grid{
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: 75px;
     }
@@ -609,6 +619,18 @@ footer .footer__logos img{
     }
     footer .footer__logos a{
         padding: 30px;
+    }
+
+    .panes-dos h2{
+        font-size: 60px;
+    }
+
+    .panes h1{
+        font-size: 60px;
+    }
+
+    .panes h2{
+        font-size: 40px;
     }
 }
 
