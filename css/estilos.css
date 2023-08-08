@@ -215,6 +215,10 @@ footer .footer__logos img{
     height: 50vh;
     padding: 10px;
 }
+
+.nosotros img{
+    width: 400px;
+}
 .nosotros div h1{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 40px;
@@ -530,6 +534,36 @@ footer .footer__logos img{
 /************* MEDIAS ***************/
 
 
+    
+@media screen and (max-width: 1050px){
+    
+    .nosotros div h1{}
+    
+    
+    .trabaja-nosotros h2{
+        font-size: 60px;
+    }
+    .trabaja-nosotros p{
+
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    .nosotros{
+        flex-direction: column;
+        
+    }
+    .nosotros img{
+        width: 30%;
+        height: 100%;
+    }
+    .nosotros-2{
+        flex-direction: column;
+   }
+   }
+    
+
 
 
 @media screen and (max-width:700px){
@@ -538,10 +572,19 @@ footer .footer__logos img{
             flex-direction: column;
             
         }
-        footer .footer__logos img{
+    footer .footer__logos img{
             margin: 3px;
-        }
-        
+    }
+
+    .mas__grid{
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 75px;
+    }
+
+    .quinto-item{
+        grid-row: span 2;
+        grid-column: span 2;
+    }
 }
 
 
@@ -563,6 +606,9 @@ footer .footer__logos img{
     .tienda .tienda__lista-2 ul li{
         margin: 0;
 
+    }
+    footer .footer__logos a{
+        padding: 30px;
     }
 }
 
