@@ -1,0 +1,279 @@
+/**********INDEX***********/
+
+/*********MAIN********/
+
+.titulo{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)
+    )
+    ,url(../img/ñoquipanceta.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 100px;
+        color: beige;
+        text-align: center;
+
+    }
+    h2{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 40px;
+        color: beige;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+}
+
+.produ{
+    h2{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        margin: 20px;
+        padding: 15px;
+    }
+    .produ__cards{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 15px;
+
+    }
+}
+
+.mas{
+    .mas__nosotros{
+        font-family: 'Bebas Neue', sans-serif;
+        width: 100%;
+        height: 40vh;
+        h2{
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 40px;
+            text-align: center;
+            margin: 20px;
+            padding: 15px;
+        }
+        p{
+            text-align: center;
+            font-size: 30px;
+        }
+        .mas__grid{
+
+        }
+
+    }
+
+}
+
+
+
+/*************NOSOTROS*************/
+
+.nosotros{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    padding: 10px;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 40px;
+            text-align: center;
+
+        }
+        p{
+            margin: 10px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 30px;
+        }
+    }
+    img{
+        width: 500px;
+
+    }
+}
+.nosotros-2{
+    width: 100%;
+    height: 50vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 40px;
+            text-align: center;
+
+
+        }
+        p{
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Bebas Neue', sans-serif;
+
+        }
+    }
+    img{
+        width: 500px;
+    }
+    
+}
+.trabaja-nosotros{
+    margin-top: 30px;
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)
+    )
+    ,url(../img/capeletinis.jpg) ;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    h2{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 100px;
+        color: beige;
+        text-align: center;
+
+    }
+    p{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 60px;
+        color: beige;
+        text-align: center;
+
+    }
+}
+
+/************CONTACTO*********/
+
+.contacto{
+    .contacto__formulario{
+        width: 100%;
+        height: 70vh;
+        font-family: 'Bebas Neue', sans-serif;
+        text-align: center;
+        background-color: white;
+        color: #401712;
+        font-size: 30px;
+        padding: 30px;
+        input{
+            font-size: 30px;
+            padding: 5px 15px;
+            margin: 9px;
+        }
+    }
+    .slider-contacto{
+        width: 100%;
+        height: 50vh;
+        background-image: url(../img/canelotis.jpg);
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+    }
+        
+}
+
+/*************PANES*********/
+
+.panes{
+    background-image: url(../img/focachafondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    h1{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 100px;
+        color: beige;
+        text-align: center;
+
+    }
+    h2{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 80px;
+        color: beige;
+        text-align: center;
+
+
+    }
+}
+.panes-cards{
+    width: 100%;
+    .panes-cards__contenedor{
+        display: flex;
+    justify-content: space-around;
+    align-items: right;
+    padding: 30px;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+
+    }
+}
+
+.panes-dos{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)
+    )
+    ,url(../img/pizza.jpg) ;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h2{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 100px;
+        color: beige;
+        text-align: center;
+
+    }
+}
