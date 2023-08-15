@@ -1,0 +1,15 @@
+$color-primario: black;
+$color-secundario: white;
+$color-terciario: beige;
+
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%bg{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

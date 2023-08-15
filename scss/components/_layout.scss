@@ -11,14 +11,10 @@
         rgba(0,0,0,0.1)
     )
     ,url(../img/ñoquipanceta.jpg) ;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    @extend %bg;
     background-attachment: fixed;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @extend %flex;
     h1{
         font-family: 'Bebas Neue', sans-serif;
         font-size: 100px;
@@ -45,8 +41,7 @@
         padding: 15px;
     }
     .produ__cards{
-        display: flex;
-        align-items: center;
+        @extend %flex;
         flex-wrap: wrap;
         justify-content: space-around;
         margin: 15px;
@@ -70,13 +65,37 @@
             text-align: center;
             font-size: 30px;
         }
-        .mas__grid{
-
+    }
+    .mas__grid{
+        width: 100%;
+        height: 80vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: 150px;
+        gap: 15px;
+        background-color: white;
+        padding: 10px;
+        .grid-item{
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                box-shadow: 0px 0px 86px -13px rgba(0,0,0,0.1),0px 0px 26px 26px rgba(0,0,0,0.1);
+            } 
         }
+        .primer-item{
+            grid-row: span 2; 
+        }
+        .tercer-item{
+            grid-row: span 2;
+        }
+        .cuarto-item{
+            grid-row: span 2;
+        }        
 
     }
-
 }
+
 
 
 
@@ -88,11 +107,8 @@
     height: 50vh;
     padding: 10px;
     div{
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
+        @extend %flex;
         h1{
             font-family: 'Bebas Neue', sans-serif;
             font-size: 40px;
@@ -120,10 +136,8 @@
     display: flex;
     flex-direction: row-reverse;
     div{
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @extend %flex;
         h2{
             font-family: 'Bebas Neue', sans-serif;
             font-size: 40px;
@@ -155,12 +169,8 @@
         rgba(0,0,0,0.1)
     )
     ,url(../img/capeletinis.jpg) ;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %bg;
+    @extend %flex;
     flex-direction: column;
     
     h2{
@@ -214,14 +224,10 @@
 
 .panes{
     background-image: url(../img/focachafondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    @extend %bg;
     width: 100%;
     height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex;
     flex-direction: column;
     
     h1{
@@ -263,12 +269,8 @@
         rgba(0,0,0,0.1)
     )
     ,url(../img/pizza.jpg) ;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %bg;
+    @extend %flex;
     h2{
         font-family: 'Bebas Neue', sans-serif;
         font-size: 100px;

@@ -3,49 +3,50 @@ footer{
     align-items: center;
     display: flex;
     height: 50vh;
-    display: flex;
     width: 100%;
-    background-color: #363635;
-    color: aliceblue;
+    background-color: rgb(255, 241, 241);
+    color: black;
     .footer__logo{
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 10p;
+        height: 100%;
+        @extend %flex;
         img{
-            width: 100px;
+            width: 150px;
         }
     }
+
     .footer__container{
+        height: 100%;
+          
         display: flex;
-        align-items: center;
         justify-content: center;
+        align-items: center;
+        flex-direction: column;
         ul{
+
+            
             list-style: none;
-            display: flex;
-            flex-direction: column;
-            text-align:start;
-            padding-top: 40px;
             li{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
-                font-family: 'Bebas Neue', sans-serif;
-                padding: 15px;
+                margin: 5px;
+                text-decoration:underline;
+               
+                font-size: 20px;
+                color: rgb(6, 6, 6);
+
             }
         }
-    }
-    .footer__logos{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 30px;
-        flex-direction: row;
-        img{
+        .footer__logos{
+            padding-right: 30px;
             margin: 10px;
-
+            img{
+                margin: 20px;
+                width: 50px;
+            }
+            
         }
+
     }
+    .footer__iframe{
+        @extend %flex;
+    }
+
 }
