@@ -178,10 +178,10 @@
     .mas{
         .mas__grid{
             grid-template-columns: 1fr;
-        
+            grid-auto-rows: 120px;
         }
+   
     }
-
     .nosotros{
         height: 80vh;
         img{

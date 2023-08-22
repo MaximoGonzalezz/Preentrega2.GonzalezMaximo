@@ -18,14 +18,14 @@
     h1{
         font-family: 'Bebas Neue', sans-serif;
         font-size: 100px;
-        color: beige;
+        color: $color-secundario;
         text-align: center;
 
     }
     h2{
         font-family: 'Bebas Neue', sans-serif;
         font-size: 40px;
-        color: beige;
+        color: $color-secundario;
         margin-left: 20px;
         text-align: center;
     }
@@ -200,21 +200,30 @@
 /************CONTACTO*********/
 
 .contacto{
-    background-color: tomato;
+    background-color: $color-secundario;
     .contacto__formulario{
-        background-color: rgb(250, 138, 118);
+        @extend %flex;
+        flex-direction: column;
         width: 100%;
         height: 70vh;
         font-family: 'Bebas Neue', sans-serif;
         text-align: center;
-        
         color: #401712;
         font-size: 30px;
-        padding: 30px;
+        h2{
+            font-size: 50px;
+        }
         input{
             font-size: 30px;
             padding: 5px 15px;
             margin: 9px;
+            transition: 1s;
+        }
+
+        input:hover{
+            background-color: $color-terciario;
+            color: $color-secundario;
+            border: 2px solid white;
         }
     }
     .slider-contacto{
