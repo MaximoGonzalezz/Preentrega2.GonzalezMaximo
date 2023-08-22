@@ -106,8 +106,6 @@
     display: flex;
     width: 100%;
     height: 50vh;
-    
-    
     div{
         width: 100%
         margin 10px;
@@ -131,6 +129,7 @@
         }
     }
     img{
+        margin: 10px;
         width: 500px;
 
     }
@@ -164,6 +163,7 @@
     }
     img{
         width: 500px;
+        margin: 10px;
     }
     
 }
@@ -212,12 +212,16 @@
         font-size: 30px;
         h2{
             font-size: 50px;
+            color: $color-terciario;
+            padding: 20px;
         }
         input{
             font-size: 30px;
             padding: 5px 15px;
             margin: 9px;
             transition: 1s;
+            
+            
         }
 
         input:hover{
@@ -225,13 +229,16 @@
             color: $color-secundario;
             border: 2px solid white;
         }
+        .boton{
+            background-color: $color-terciario;
+            color: $color-secundario;
+        }
     }
     .slider-contacto{
         width: 100%;
         height: 30vh;
         background-image: url(../img/canelotis.jpg);
         background-position: center center;
-        background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
         
