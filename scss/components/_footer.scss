@@ -17,26 +17,25 @@ footer{
     .footer__container{
         height: 100%;
           
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend %flex;
         flex-direction: column;
         ul{
 
             
             list-style: none;
             li{
-                margin: 5px;
+                margin: 8px;
                 text-decoration:underline;
-               
                 font-size: 20px;
                 color: rgb(6, 6, 6);
+                padding-bottom: 10px;
 
             }
         }
         .footer__logos{
             padding-right: 30px;
             margin: 10px;
+            
             img{
                 margin: 20px;
                 width: 50px;
@@ -46,7 +45,10 @@ footer{
 
     }
     .footer__iframe{
-        @extend %flex;
+        iframe{
+            @extend %flex;
+            width: 400px;
+        }
     }
 
 }
