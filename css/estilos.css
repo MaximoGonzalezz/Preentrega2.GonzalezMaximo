@@ -429,13 +429,13 @@ footer {
 
 @media screen and (max-width: 380px) {
   .nosotros {
-    height: 100vh;
+    height: 120vh;
     padding: 10px; }
     .nosotros img {
       width: 250px;
       height: 200px; }
   .nosotros-2 {
-    height: 100vh;
+    height: 120vh;
     padding: 10px; }
   .contacto .contacto__formulario h2 {
     margin-top: 40px; }
