@@ -388,12 +388,12 @@ footer {
 
 @media screen and (max-width: 650px) {
   .nosotros {
-    height: 70vh; }
+    height: 80vh; }
     .nosotros img {
       width: 350px;
       height: 300px; }
   .nosotros-2 {
-    height: 70vh; }
+    height: 80vh; }
     .nosotros-2 img {
       width: 350px;
       height: 300px; }
@@ -426,3 +426,23 @@ footer {
     .nosotros-2 img {
       width: 300px;
       height: 250px; } }
+
+@media screen and (max-width: 380px) {
+  .nosotros {
+    height: 100vh;
+    padding: 10px; }
+    .nosotros img {
+      width: 250px;
+      height: 200px; }
+  .nosotros-2 {
+    height: 100vh;
+    padding: 10px; }
+  .contacto .contacto__formulario h2 {
+    margin-top: 40px; }
+  .contacto .galeria div {
+    margin: 20px; }
+    .contacto .galeria div img {
+      width: 300px;
+      height: 150px;
+      object-fit: cover;
+      margin: 20px; } }
