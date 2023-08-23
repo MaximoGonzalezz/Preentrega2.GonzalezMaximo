@@ -173,7 +173,7 @@
     text-align: center;
     color: #401712;
     font-size: 30px; }
-    .contacto .contacto__formulario h2 {
+    .contacto .contacto__formulario h1 {
       font-size: 50px;
       color: tomato;
       padding: 20px; }
@@ -433,11 +433,11 @@ footer {
     padding: 10px; }
     .nosotros img {
       width: 250px;
-      height: 200px; }
+      height: 180px; }
   .nosotros-2 {
     height: 120vh;
     padding: 10px; }
-  .contacto .contacto__formulario h2 {
+  .contacto .contacto__formulario h1 {
     margin-top: 40px; }
   .contacto .galeria div {
     margin: 20px; }
