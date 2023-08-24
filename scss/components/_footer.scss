@@ -4,7 +4,7 @@ footer{
     display: flex;
     height: 50vh;
     width: 100%;
-    background-color: rgb(255, 241, 241);
+    background-color: white;
     color: black;
     .footer__logo{
         height: 100%;
@@ -39,6 +39,10 @@ footer{
             img{
                 margin: 20px;
                 width: 50px;
+                transition: 1s;
+            }
+            img:hover{
+                transform: scale(2)
             }
             
         }

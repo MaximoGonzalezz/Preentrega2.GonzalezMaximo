@@ -132,6 +132,9 @@
 @media screen and (max-width: 650px) {
 
     .nosotros {
+        div{
+            h1{padding: 20px;}
+        }
         height: 80vh;
 
         img {
