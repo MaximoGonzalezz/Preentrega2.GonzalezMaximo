@@ -180,6 +180,12 @@
 
 
     footer {
+        .footer__logo{
+            img{
+                width: 100px;
+            }
+        }
+
         .footer__iframe {
             iframe {
                 display: none;

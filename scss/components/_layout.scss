@@ -206,14 +206,14 @@
         rgba(0,0,0,0.1),
         rgba(0,0,0,0.1)
     )
-    ,url(../img/capeletinis.jpg) ;
+    ,url(../img/salmonottis.jpg) ;
     @extend %bg;
     @extend %flex;
     flex-direction: column;
     
     h2{
         font-family: 'Bebas Neue', sans-serif;
-        font-size: nth($font-size, 5);
+        font-size: nth($font-size, 4);
         color: beige;
         text-align: center;
 

@@ -16,6 +16,12 @@
   box-sizing: border-box;
   font-family: 'Bebas Neue', sans-serif; }
 
+.nav-link {
+  color: tomato; }
+
+header div nav {
+  background-color: beige; }
+
 .fixed {
   position: fixed;
   right: 50px;
@@ -173,11 +179,11 @@ main {
   margin-top: 30px;
   width: 100%;
   height: 80vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/capeletinis.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/salmonottis.jpg);
   flex-direction: column; }
   .trabaja-nosotros h2 {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 100px;
+    font-size: 80px;
     color: beige;
     text-align: center; }
   .trabaja-nosotros p {
@@ -461,6 +467,8 @@ footer {
     font-size: 50px; }
   .panes-dos h2 {
     font-size: 60px; }
+  footer .footer__logo img {
+    width: 100px; }
   footer .footer__iframe iframe {
     display: none; }
   footer .footer__logos img {
